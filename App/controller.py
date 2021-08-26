@@ -53,15 +53,9 @@ def loadTags(filename):
 
 
 def loadBooksTags(filename):
-<<<<<<< HEAD
    
     btfile = cf.data_dir + filename
 
     return model.addBooksTags(btfile)
 
     
-=======
-
-    booktagsfile = cf.data_dir + filename
-    return model.addBooksTags(booktagsfile)
->>>>>>> origin/Est-1
